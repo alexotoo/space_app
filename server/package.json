@@ -1,0 +1,24 @@
+{
+  "name": "space-app",
+  "version": "1.0.0",
+  "description": "a full stack node app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "watch": "nodemon src/server.js"
+  },
+  "author": "alex otoo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.0.4",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
